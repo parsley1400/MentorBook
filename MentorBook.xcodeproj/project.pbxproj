@@ -15,6 +15,10 @@
 		81BCF4E82508C22D00D92FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BCF4E62508C22D00D92FC0 /* LaunchScreen.storyboard */; };
 		81BCF4F32508C22E00D92FC0 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BCF4F22508C22E00D92FC0 /* MentorBookTests.swift */; };
 		81BCF4FE2508C22E00D92FC0 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BCF4FD2508C22E00D92FC0 /* MentorBookUITests.swift */; };
+		81BCF50F2508C28C00D92FC0 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81BCF50C2508C28C00D92FC0 /* ryo.jpg */; };
+		81BCF5102508C28C00D92FC0 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81BCF50D2508C28C00D92FC0 /* nagata.jpg */; };
+		81BCF5112508C28C00D92FC0 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81BCF50E2508C28C00D92FC0 /* taithi.jpg */; };
+		81CCBB222508C7D60093781D /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CCBB212508C7D60093781D /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		81BCF4F92508C22E00D92FC0 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BCF4FD2508C22E00D92FC0 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		81BCF4FF2508C22E00D92FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BCF50C2508C28C00D92FC0 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		81BCF50D2508C28C00D92FC0 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		81BCF50E2508C28C00D92FC0 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		81CCBB212508C7D60093781D /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		81BCF4DA2508C22600D92FC0 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				81BCF50B2508C28C00D92FC0 /* images */,
 				81BCF4DB2508C22600D92FC0 /* AppDelegate.swift */,
 				81BCF4DD2508C22600D92FC0 /* SceneDelegate.swift */,
 				81BCF4DF2508C22600D92FC0 /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				81BCF4E42508C22D00D92FC0 /* Assets.xcassets */,
 				81BCF4E62508C22D00D92FC0 /* LaunchScreen.storyboard */,
 				81BCF4E92508C22D00D92FC0 /* Info.plist */,
+				81CCBB212508C7D60093781D /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				81BCF4FF2508C22E00D92FC0 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		81BCF50B2508C28C00D92FC0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				81BCF50C2508C28C00D92FC0 /* ryo.jpg */,
+				81BCF50D2508C28C00D92FC0 /* nagata.jpg */,
+				81BCF50E2508C28C00D92FC0 /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BCF5112508C28C00D92FC0 /* taithi.jpg in Resources */,
+				81BCF50F2508C28C00D92FC0 /* ryo.jpg in Resources */,
+				81BCF5102508C28C00D92FC0 /* nagata.jpg in Resources */,
 				81BCF4E82508C22D00D92FC0 /* LaunchScreen.storyboard in Resources */,
 				81BCF4E52508C22D00D92FC0 /* Assets.xcassets in Resources */,
 				81BCF4E32508C22600D92FC0 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CCBB222508C7D60093781D /* Mentor.swift in Sources */,
 				81BCF4E02508C22600D92FC0 /* ViewController.swift in Sources */,
 				81BCF4DC2508C22600D92FC0 /* AppDelegate.swift in Sources */,
 				81BCF4DE2508C22600D92FC0 /* SceneDelegate.swift in Sources */,
